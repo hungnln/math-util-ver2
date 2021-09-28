@@ -41,7 +41,7 @@ public class AdvancedFactorialTest {
             {3, 6},
             {4, 24},
             {5, 120},
-            {6, 720},//bo sung test CI
+            {6, 7200},//bo sung test CI
         };
     }
 
