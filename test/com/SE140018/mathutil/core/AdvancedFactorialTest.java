@@ -35,23 +35,24 @@ public class AdvancedFactorialTest {
     @Parameters
     public static Object[][] initData() {
         return new Integer[][]{
-            {0,1},
-            {1,1},
-            {2,2},
-            {3,6},
-            {4,24},
-            {6,720}            
+            {0, 1},
+            {1, 1},
+            {2, 2},
+            {3, 6},
+            {4, 24},
+            {5, 120},
+            {6, 720},//bo sung test CI
         };
     }
-    
-    @Parameter(value =0)
+
+    @Parameter(value = 0)
     public int n; // ban muon linh may giai thua
-    
-    @Parameter(value=1)
+
+    @Parameter(value = 1)
     public long expected; // ban ki vong giai thua tra ve may
-    
+
     @Test // bien 1 ham thanh ham main
-        public void checkFactorialGivenRightArgumentReturnsWell(){
+    public void checkFactorialGivenRightArgumentReturnsWell() {
         assertEquals(expected, getFactorial(n));
     }
 
