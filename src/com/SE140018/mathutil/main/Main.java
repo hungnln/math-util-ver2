@@ -15,7 +15,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("0! = 1?"+MathUtil.getFactorial(0));
         System.out.println("1! = 1?"+MathUtil.getFactorial(1));
-        System.out.println("5! = 1?"+MathUtil.getFactorial(5));
+        System.out.println("5! = 120?"+MathUtil.getFactorial(5));
+        System.out.println("6! = 720?"+MathUtil.getFactorial(6));//Modify by someone
         //tu nhien tu so sanh, tu ket luan cho tung truong hop va cho all
     }
 }
