@@ -16,6 +16,11 @@ public class Main {
         System.out.println("0! = 1?"+MathUtil.getFactorial(0));
         System.out.println("1! = 1?"+MathUtil.getFactorial(1));
         System.out.println("5! = 1?"+MathUtil.getFactorial(5));
+        
         //tu nhien tu so sanh, tu ket luan cho tung truong hop va cho all
+    }
+    //modify from local
+    public static void testFactorialSuccessfulCase(){
+        System.out.println("0! = 1?"+MathUtil.getFactorial(0));
     }
 }
